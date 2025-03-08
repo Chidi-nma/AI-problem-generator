@@ -5,51 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
-    <title>IdeaForge - AI Problem Generator</title>
+    <title>IdeaForge.AI - AI Problem Generator</title>
   </head>
   <body>
-    <h1>
-      Welcome to IdeaForge - an AI-powered problem generator designed to ignite
-      innovation for entrepreneurs, businesses, and creators.
-    </h1>
-    <main>
-      <form action="">
-        <input
-          type="text"
-          placeholder="Enter the industry or area to search problems"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" value="Submit" />
-      </form>
-      <div>Ideas go here</div>
-    </main>
+    <div class="container">
+      <header>
+        <h1>Welcome to IdeaForge.AI</h1>
+        <h2>
+          An AI-powered problem generator designed to ignite innovation for
+          entrepreneurs, businesses, and creators.
+        </h2>
+      </header>
+      <main>
+        <form action="">
+          <input
+            type="text"
+            placeholder="Enter the industry or area to search problems"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" value="Submit" class="submit-button" />
+        </form>
+        <div class="problems">Ideas go here</div>
+      </main>
 
-    <footer>
-      This AI project was coded by
-      <a
-        href="https://github.com/Chidi-nma"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Chidi Ikebujo</a
-      >
-      and is
-      <a
-        href="https://github.com/Chidi-nma/AI-problem-generator"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Open-sourced on GitHub</a
-      >
-      and
-      <a
-        href="https://ideaforge-ai.netlify.app/"
-        target="_blank"
-        rel="noopener noreferrer"
-        >hosted on Netlify</a
-      >
-      .
-    </footer>
+      <footer>
+        This AI project was coded by
+        <a
+          href="https://github.com/Chidi-nma"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Chidi Ikebujo</a
+        >
+        and is
+        <a
+          href="https://github.com/Chidi-nma/AI-problem-generator"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Open-sourced on GitHub</a
+        >
+        and
+        <a
+          href="https://ideaforge-ai.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >hosted on Netlify</a
+        >
+        .
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
