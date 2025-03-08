@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- typewriter pluggin -->
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <!-- API Ajax -->
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>IdeaForge.AI - AI Problem Generator</title>
   </head>
@@ -26,6 +29,7 @@
             required
             autocomplete="off"
             class="instructions"
+            id="user-instructions"
           />
           <input type="submit" value="Submit" class="submit-button" />
         </form>
