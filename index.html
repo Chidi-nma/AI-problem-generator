@@ -16,24 +16,31 @@
       <header>
         <h1>Welcome to IdeaForge.AI</h1>
         <h2>
-          An AI-powered problem generator designed to ignite innovation for
-          entrepreneurs, businesses, and creators.
+          An AI-powered problem generator designed to ignite innovative,
+          tech-driven and monetizable ideas for Entrepreneurs, Businesses,
+          Start-ups and Creators.
         </h2>
       </header>
       <main>
-        <form action="" id="problem-generator-form">
-          <input
-            type="text"
-            placeholder="Enter the industry or area to search problems"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" value="Submit" class="submit-button" />
-        </form>
-        <div class="problems" id="problems"></div>
+        <div class="form-container">
+          <form action="" id="problem-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the industry or topic you want ideas generated for"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" value="Submit" class="submit-button" />
+          </form>
+          <div class="hint">
+            i.e Data security, Education, Health care, Fashion etc
+          </div>
+        </div>
+
+        <div class="problems hidden" id="problems"></div>
       </main>
 
       <footer>
